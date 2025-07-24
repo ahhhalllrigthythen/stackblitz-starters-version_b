@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+   
+}
+
+body {
+margin: 0;
+font-family: system-ui, sans-serif;
+color: #000;
+background-color: #fcfafa; 
+}
+
+h1 {
+    font-size: large;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+}
+
+p {
+    color: #310f8ffa;
+    font-family: Arial, sans-serif;
+    font-size: medium;
+    margin-left: 10px;
+}
