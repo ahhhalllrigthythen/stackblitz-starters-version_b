@@ -3,8 +3,13 @@
    
 }
 
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+  }
+
 body {
-    background: url(pexels-mediocrememories-2225618.jpg);
+    background: url(pexels-athena-2582932.jpg);
     background-size: 1920px 1080px;
     background-repeat: no-repeat;
 }
@@ -24,10 +29,11 @@ h1 {
 }
 
 p {
-    color: #000000fa;
+    color: #fffffffa;
     font-family: Arial, sans-serif;
     font-size: medium;
     margin-left: 10px;
+    margin-top: 27px;
 }
 
 nav {
@@ -40,6 +46,10 @@ nav {
     padding: 0;
     overflow: hidden;
     background-color: #000;
+    height: 60px;
+    border-bottom: 3px solid #298e33;
+    font-size: 20px;
+    font-weight: bold;
   }
   
   li {
@@ -52,4 +62,8 @@ nav {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111;
   }
