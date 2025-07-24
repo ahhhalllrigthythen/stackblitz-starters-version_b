@@ -18,8 +18,12 @@ h1 {
 }
 
 p {
-    color: #310f8ffa;
+    color: #000000fa;
     font-family: Arial, sans-serif;
     font-size: medium;
     margin-left: 10px;
+}
+
+nav {
+    
 }
