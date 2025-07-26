@@ -3,16 +3,17 @@
    
 }
 
-@font-face {
-    font-family: myFirstFont;
-    src: url(sansation_light.woff);
-  }
-
 body {
     background: url(pexels-athena-2582932.jpg);
-    background-size: 1920px 1080px;
+    background-size: cover;
     background-repeat: no-repeat;
 }
+
+a {
+    font-family: Arial, sans-serif;
+    color: white;
+    font-size: 20px;#
+  }
 
 body {
 margin: 0;
@@ -21,11 +22,46 @@ color: #000;
 background-color: #fcfafa; 
 }
 
+div {
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 320px;
+    height: 50px;
+    padding: 10px;
+    color: #ffffff;
+    font-family: arial, sans-serif;
+}
+
+button {
+    font-family: Arial, sans-serif;
+    color: white;
+    margin-top: 37px;
+    margin-left: 14px;
+    background-color: #111;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;#
+  }
+
+  button {
+    border-radius: 8px;
+    opacity: 0.95;
+    border: 2px solid black;
+    transition-duration: 0.4s;
+  }
+
+  button:hover {
+    background-color: #333;
+    color: white;
+  }
+
 h1 {
-    font-size: large;
-    font-weight: bold;
-    font-style: normal;
-    text-align: center;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-bottom: 27px;
+    margin-left: 15px;
+    font-weight: bolder;
 }
 
 p {
@@ -50,11 +86,11 @@ nav {
     border-bottom: 3px solid #298e33;
     font-size: 20px;
     font-weight: bold;
-  }
+}
   
   li {
     float: left;
-  }
+}
   
   li a {
     display: block;
@@ -62,8 +98,8 @@ nav {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
+}
 
   li a:hover {
-    background-color: #111;
-  }
+    background-color: #333;
+}

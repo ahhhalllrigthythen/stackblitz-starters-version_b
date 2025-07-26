@@ -3,14 +3,9 @@
    
 }
 
-@font-face {
-    font-family: myFirstFont;
-    src: url(sansation_light.woff);
-  }
-
 body {
     background: url(pexels-joshsorenson-1714208.jpg);
-    background-size: 1920px 1080px;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -26,6 +21,8 @@ h1 {
     font-weight: bold;
     font-style: normal;
     text-align: center;
+    margin-top: 27px;
+    margin-left: 10px;
 }
 
 p {
@@ -65,5 +62,5 @@ nav {
   }
 
   li a:hover {
-    background-color: #111;
+    background-color: #333;
   }
