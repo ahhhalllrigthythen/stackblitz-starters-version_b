@@ -35,9 +35,9 @@ p {
 
 nav {
     position: fixed;
+    z-index: 1;
     top: 0;
     width: 100%;
-
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -47,6 +47,7 @@ nav {
     border-bottom: 3px solid #298e33;
     font-size: 20px;
     font-weight: bold;
+    transition-duration: 0.4s;
   }
   
   li {
